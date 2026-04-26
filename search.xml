@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>博客维护方法</title>
+      <link href="/2025/07/19/%E6%9B%B4%E6%96%B0%E6%B3%95/"/>
+      <url>/2025/07/19/%E6%9B%B4%E6%96%B0%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>摘要：Hexo 博客的日常维护速查手册——从生成、预览到部署的全流程命令，以及如何删除文章和管理主题。</p></blockquote><p><a href="https://chatgpt.com/c/687b4b33-30fc-8006-80d4-6999aeb14a03">https://chatgpt.com/c/687b4b33-30fc-8006-80d4-6999aeb14a03</a></p><pre><code class="language-hexo">hexo g //生成bloghexo s //预览hexo d //部署到云端```删除blog```git rm source/_posts/unwanted-post.mdgit commit -m &quot;Remove unwanted post&quot;git push```主题在themes,</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 博客 </tag>
+            
+            <tag> 教程 </tag>
+            
+            <tag> 部署 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>生命的开阔</title>
+      <link href="/2025/05/21/%E7%94%9F%E5%91%BD%E7%9A%84%E5%BC%80%E9%98%94/"/>
+      <url>/2025/05/21/%E7%94%9F%E5%91%BD%E7%9A%84%E5%BC%80%E9%98%94/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>摘要：由北航事件引发的思考——我们是否在逃避中丢失了真正热爱的能力？从”乐子人”到重新找回热爱，去做一个更全面、更开阔的人。</p></blockquote><h1 id="5-18北航跳楼事件有感"><a href="#5-18北航跳楼事件有感" class="headerlink" title="5.18北航跳楼事件有感"></a>5.18北航跳楼事件有感</h1><p>先摘一段知乎上我很认同的回答<a href="https://www.zhihu.com/question/1907553285075865641/answer/1908387883594778007">https://www.zhihu.com/question/1907553285075865641/answer/1908387883594778007</a><br>最让我感触的不是生命演化的广阔，而是喜欢斯诺克的过程，我好像喜欢（逃避）了很多东西，去看lpl,去看cs，去看kpl随手刷到一个体育赛事都会去瞅几眼，但我好像丧失了真正去热爱一个事情的勇气，成了一个乐子人。我自诩没有什么事情能够弄垮我了，但确实也会因各种事情而<br><img src="/img/zhihu.png"><br>我希望去做一个更好的人，一个更全面的人，一个脱离校园气息？的人</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 成长 </tag>
+            
+            <tag> 生命 </tag>
+            
+            <tag> 思考 </tag>
+            
+            <tag> 热爱 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>理想三旬</title>
+      <link href="/2025/05/20/%E4%BB%8A%E6%97%A5%E7%AE%80%E5%8F%B2/"/>
+      <url>/2025/05/20/%E4%BB%8A%E6%97%A5%E7%AE%80%E5%8F%B2/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>摘要：关于如何成为一个有气质的人——不是工作赋予的，而是持续学习、建立个人SOP、保持复盘的习惯，以及让自己的产出有条理且好看。</p></blockquote><h1 id="希望去做一个有气质的人"><a href="#希望去做一个有气质的人" class="headerlink" title="希望去做一个有气质的人"></a>希望去做一个有气质的人</h1><p>真正的气质，可能不是从事什么工作，不是说敲代码成为码农就能完成，更重要的是能够时刻学习提高自己，更重要的是弄出一套SOP，在日常更重要的是进行复盘。然后自己写的东西，画的图也需要有条理+好看</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 成长 </tag>
+            
+            <tag> 自我提升 </tag>
+            
+            <tag> 气质 </tag>
+            
+            <tag> SOP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中国历代政治得失</title>
+      <link href="/2025/05/20/%E4%B8%AD%E5%9B%BD%E5%8E%86%E4%BB%A3%E6%94%BF%E6%B2%BB%E5%BE%97%E5%A4%B1/"/>
+      <url>/2025/05/20/%E4%B8%AD%E5%9B%BD%E5%8E%86%E4%BB%A3%E6%94%BF%E6%B2%BB%E5%BE%97%E5%A4%B1/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>摘要：读钱穆先生《中国历代政治得失》的读书笔记，梳理汉、唐、宋、明、清五代政治制度的脉络与得失，重新审视中国传统政治的复杂性与智慧。</p></blockquote><h1 id="整体脉络梳理"><a href="#整体脉络梳理" class="headerlink" title="整体脉络梳理"></a>整体脉络梳理</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 读书笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 历史 </tag>
+            
+            <tag> 政治 </tag>
+            
+            <tag> 钱穆 </tag>
+            
+            <tag> 制度 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
