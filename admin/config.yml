@@ -1,0 +1,74 @@
+{
+  "locale": "zh_Hans",
+  "backend": {
+    "name": "github",
+    "repo": "jessenlee/blog-source",
+    "branch": "main",
+    "auth_scope": "repo",
+    "base_url": "https://jessenlee-blog-auth.19377329.workers.dev"
+  },
+  "local_backend": false,
+  "publish_mode": "editorial_workflow",
+  "site_url": "https://jessenlee.com",
+  "media_folder": "source/media",
+  "public_folder": "/media",
+  "collections": [
+    {
+      "name": "posts",
+      "label": "文章",
+      "label_singular": "文章",
+      "folder": "source/_posts",
+      "create": true,
+      "slug": "{{slug}}",
+      "slug_sanitize_replacement": "-",
+      "fields": [
+        {
+          "label": "标题",
+          "name": "title",
+          "widget": "string"
+        },
+        {
+          "label": "日期",
+          "name": "date",
+          "widget": "datetime"
+        },
+        {
+          "label": "分类",
+          "name": "categories",
+          "widget": "select",
+          "multiple": true,
+          "required": false,
+          "max": 1,
+          "options": [
+            "技术",
+            "读书笔记",
+            "随笔"
+          ]
+        },
+        {
+          "label": "摘要",
+          "name": "description",
+          "widget": "text",
+          "required": false
+        },
+        {
+          "label": "封面",
+          "name": "cover",
+          "widget": "image",
+          "required": false
+        },
+        {
+          "label": "封面说明",
+          "name": "cover_alt",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "label": "正文",
+          "name": "body",
+          "widget": "richtext"
+        }
+      ]
+    }
+  ]
+}

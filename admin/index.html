@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/img/favicon.ico">
+  <title>文章管理 · JessenLee</title>
+</head>
+<body>
+<script src="./decap-cms.js"></script>
+<script>
+  CMS.registerPreviewStyle('/css/site.css');
+  CMS.registerPreviewTemplate('posts', createClass({
+    render: function () {
+      const entry = this.props.entry;
+      const children = [h('h1', {}, entry.getIn(['data', 'title']))];
+      const cover = entry.getIn(['data', 'cover']);
+      if (cover) {
+        children.push(h('img', {
+          className: 'cover',
+          src: this.props.getAsset(cover).toString(),
+          alt: entry.getIn(['data', 'cover_alt']) || '',
+        }));
+      }
+      return h('article', { className: 'site-shell' },
+        h('header', { className: 'article-header' }, ...children),
+        h('div', { className: 'prose' }, this.props.widgetFor('body')));
+    },
+  }));
+</script>
+</body>
+</html>
