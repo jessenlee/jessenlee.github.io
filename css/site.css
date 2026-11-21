@@ -35,6 +35,7 @@ a:hover, [aria-current="page"] { color: var(--accent); }
   min-height: 4.5rem;
   border-bottom: 1px solid var(--line);
 }
+.site-header nav { display: flex; gap: 1.25rem; }
 .site-header a, .categories a, .post-item h2 a { text-decoration: none; }
 .site-header nav, .categories, .article-meta, time, .site-footer { font-size: .875rem; color: var(--muted); }
 .site-name { font-weight: 750; }
